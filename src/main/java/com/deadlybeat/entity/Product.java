@@ -13,7 +13,9 @@ import lombok.NoArgsConstructor;
 @Entity
 @Table(name="PRODUCT_TBL")
 public class Product {
-
+	
+	
+	//comment added
 	@Id
 	@GeneratedValue
 	private int id;
